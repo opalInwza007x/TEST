@@ -36,9 +36,10 @@ opal_Inwza007x ก็เป็นเด็กธรรมดาคนนึง�
 * Variable
 * Loop
 * Array
-* Function & Recursive Function
 * Vector
 * Sort
+* Function & Recursive Function
+* Stack
 * Struct
 * Basic Algorithm
 
