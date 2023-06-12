@@ -92,8 +92,10 @@ opal_Inwza007x ก็เป็นเด็กธรรมดาคนนึง�
 ## ช่วงโดนตบก่อนไปค่าย 2
 
 <details>
- <summary>Summary Goes Here</summary>
- ...this is hidden, collapsable content...
+ <summary>มาดูของดีไหม >:3</summary>
+ > <img src="https://github.com/opalInwza007x/TEST/assets/114739286/8024923d-436d-457b-9039-050c20a66932" width="385px" align="center">
+ 
+ You got Rickrolled's lmao
 </details>
 
 (Day#0 จะบันทึกอะไรก็ได้ ไม่ได้ขอตังใคร ยกเว้น พ่อแม่)
