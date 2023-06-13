@@ -112,6 +112,8 @@ opal_Inwza007x ก็เป็นเด็กธรรมดาคนนึง�
 
 (Day#6 เดดไลน์วิจัยทำไรผมไม่ได้!!!!)
 
+(Day#7 peaches peaches peaches peaches peaches peaches peaches peaches peaches peaches I LOVE YOU...)
+
 .
 
 .
