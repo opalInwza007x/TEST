@@ -153,6 +153,9 @@ opal_Inwza007x ก็เป็นเด็กธรรมดาคนนึง�
 
 (Day#12 blog เสร็จพน.แน่นอนครับ)
 
+(Day#13 We got a number one Victory Royale Yeah, Fortnite, we 'bout to get down (get down) Ten kills on the board right now
+Just wiped out Tomato Town…) 
+
 .
 
 .
