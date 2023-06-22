@@ -156,6 +156,10 @@ opal_Inwza007x ก็เป็นเด็กธรรมดาคนนึง�
 (Day#13 We got a number one Victory Royale Yeah, Fortnite, we 'bout to get down (get down) Ten kills on the board right now
 Just wiped out Tomato Town…) 
 
+(Day#14 ขอเวลาแปปครับ hypixel skyblock มี Rift update)
+
+(Day#15 yeahhh boiiiii) 
+
 .
 
 .
