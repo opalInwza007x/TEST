@@ -157,6 +157,8 @@ Just wiped out Tomato Town…)
 
 (Day#15 yeahhh boiiiii) 
 
+(Day#16 ผมไม่รู้จะพิมไรดี) 
+
 .
 
 .
