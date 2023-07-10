@@ -4,7 +4,7 @@
 
 - [การเริ่มต้น](https://github.com/opalInwza007x/TEST/blob/main/README.md#%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99)
 
-- [ค่าย 1]()
+- [ค่าย 1](https://github.com/opalInwza007x/TEST/blob/main/README.md#%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%A2-1)
 
 - [ช่วงโดนตบก่อนไปค่าย 2]()
 
