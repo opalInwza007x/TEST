@@ -8,7 +8,7 @@
 
 - [ช่วงโดนตบก่อนไปค่าย 2]()
 
-- [ค่าย 2]()
+- [ค่าย 2](https://github.com/opalInwza007x/TEST/blob/main/README.md#%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%A2-2)
 
 - [The 19th Thailand Olympiad in Informatics]()
  
