@@ -1,15 +1,13 @@
 # ค่ายสอวน. คอมพิวเตอร์ แล้วอะไรต่อก็ไม่รู้ ยังทำไม่เสร็จอย่าคาดหวังเยอะนะครับ
 
-/*
- 
-amogus 69 pretty SUS!?!!!???? 
+<details>
+ <summary>กดเพื่อดูของดี >:3</summary>
+     [การเริ่มต้น](https://github.com/opalInwza007x/TEST/blob/main/README.md#%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99)
 
-why doing web is so hard >:(
+      
+</details>
 
-สารบัญ
 
-[การเริ่มต้น](https://github.com/opalInwza007x/TEST/blob/main/README.md#%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99)
-*/
  
 สวัสดีผู้อ่านทุกท่านครับ พวกคุณเคยสนใจเรื่องสอวน. คอมพิวเตอร์กันไหมครับ?
 
