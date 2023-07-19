@@ -10,6 +10,8 @@
 - [ค่าย 2](https://github.com/opalInwza007x/TEST/blob/main/README.md#%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%A2-2)
 
 - [The 19th Thailand Olympiad in Informatics](https://github.com/opalInwza007x/TEST/blob/main/README.md#the-19th-thailand-olympiad-in-informatics)
+
+- [จุดจบ](https://github.com/opalInwza007x/TEST/blob/main/README.md#%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%88%E0%B8%9A)
  
 สวัสดีผู้อ่านทุกท่านครับ พวกคุณเคยสนใจเรื่องสอวน. คอมพิวเตอร์กันไหมครับ?
 
