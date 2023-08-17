@@ -179,13 +179,13 @@ opal_Inwza007x ก็เป็นเด็กธรรมดาคนนึง�
 
 ## เปิดมาหน้าแรก แต่ละอันเอาไว้ทำไร
     ```c++
-    #include <iostream>
+    1. #include <iostream>
 
-    using namespace std;
+    2. using namespace std;
 
-    int main() {
-        return 0;
-    }
+    3. int main() {
+    4.     return 0;
+    5. }
     ```
 
 
