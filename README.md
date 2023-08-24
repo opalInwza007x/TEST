@@ -342,9 +342,9 @@ c++ มีการกำหนดคำสั่งของ if ดังนี
 
 ## loop
 
-### ${\color{green}for}$
+### __${\color{green}for}$__
 
-### ${\color{green}while}$
+### ${\color{green}__while__}$
 
 ### ${\color{green}do...while}$
 
