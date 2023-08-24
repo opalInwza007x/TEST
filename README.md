@@ -354,7 +354,7 @@ c++ มีการกำหนดคำสั่งของ if ดังนี
 
 ## __${\color{black}Algorithms }$__ __${\color{black}และ }$__ __${\color{black}โจทย์ที่แนะนำ}$__
 
-## __${\color{black}Tips }$__ __${\color{black}from }$__ __${\color{black}opal_Inwza007x}$__
+## __${\color{black}Tips }$__ __${\color{black}from }$__ __${\color{black}opal Inwza007x}$__
 
 <details>
  <summary>กดเพื่อดูของดี >:3</summary>
