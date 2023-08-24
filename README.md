@@ -352,7 +352,7 @@ c++ มีการกำหนดคำสั่งของ if ดังนี
 
 ## __${\color{black}Function and Recursive Function}$__
 
-## __${\color{black}Algorithm และ โจทย์ที่แนะนำ}$__
+## __${\color{black}Algorithms และ โจทย์ที่แนะนำ}$__
 
 ## __${\color{black}Tips from opal_Inwza007x}$__
 
