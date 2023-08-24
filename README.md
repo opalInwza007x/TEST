@@ -348,13 +348,13 @@ c++ มีการกำหนดคำสั่งของ if ดังนี
 
 ### __${\color{green}do...while}$__
 
-## __${\color{black}Data structure}$__
+## __${\color{black}Data }$__ __${\color{black}structure}$__
 
-## __${\color{black}Function and Recursive Function}$__
+## __${\color{black}Function }$__ __${\color{black}and }$__ __${\color{black}Recursive }$__ __${\color{black}Function}$__
 
-## __${\color{black}Algorithms และ โจทย์ที่แนะนำ}$__
+## __${\color{black}Algorithms }$__ __${\color{black}และ }$__ __${\color{black}โจทย์ที่แนะนำ}$__
 
-## __${\color{black}Tips from opal_Inwza007x}$__
+## __${\color{black}Tips }$__ __${\color{black}from }$__ __${\color{black}opal_Inwza007x}$__
 
 <details>
  <summary>กดเพื่อดูของดี >:3</summary>
