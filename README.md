@@ -336,9 +336,19 @@ c++ มีการกำหนดคำสั่งของ if ดังนี
 
     }
 
-* ใช้ ${\color{red}if}$ ไว้อันแรกเลย ถ้าเกิด condtion เรา true จะทำงานใน {} ต่อเลย
-* ใช้ ${\color{red}else}$ ${\color{red}if}$ เอาไว้ใช้อันรองๆมา ถ้า condition ข้างบน false แล้วอันนี้ true จะทำงานใน {} ต่อเลย
-* ใช้ ${\color{red}else}$ เอาไว้ใส่อันท้ายสุด ถ้า condition ข้างบน false หมดเลย จะทำงานใน {} ต่อเลยโดยไม่ลังเล
+* ใช้ ${\color{red}if}$ ไว้อันแรกเลย ถ้าเกิด condtion เรา true จะทำงานใน braces ต่อเลย
+* ใช้ ${\color{red}else}$ ${\color{red}if}$ เอาไว้ใช้อันรองๆมา ถ้า condition ข้างบน false แล้วอันนี้ true จะทำงานใน braces ต่อเลย
+* ใช้ ${\color{red}else}$ เอาไว้ใส่อันท้ายสุด ถ้า condition ข้างบน false หมดเลย จะทำงานใน braces ต่อโดยไม่ลังเล
+
+## loop
+
+## Dara structure
+
+## Function and Recursive Function
+
+## Algorithm และ โจทย์ที่แนะนำ
+
+## Tips from opal_Inwza007x
 
 <details>
  <summary>กดเพื่อดูของดี >:3</summary>
