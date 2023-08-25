@@ -342,6 +342,8 @@ opal_Inwza007x ก็เป็นเด็กธรรมดาคนนึง�
 
 ## __${\color{black}Math }$__ ## __${\color{black}in }$__ __${\color{black}c++}$__
 
+
+
 ## __${\color{black}Loops}$__
 
 ### __${\color{green}for}$__
