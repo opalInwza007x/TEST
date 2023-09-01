@@ -433,6 +433,12 @@ opal_Inwza007x ก็เป็นเด็กธรรมดาคนนึง�
 
 ### __${\color{green}do...while}$__
 
+    do {
+        // process
+    } while (condition);
+
+    ไม่ค่อยได้เห็นบ่อยครับ
+
 ## __${\color{black}Data }$__ __${\color{black}structure}$__
 
 ## __${\color{black}Function }$__ __${\color{black}and }$__ __${\color{black}Recursive }$__ __${\color{black}Function}$__
