@@ -456,9 +456,29 @@ opal_Inwza007x ก็เป็นเด็กธรรมดาคนนึง�
 
 ## __${\color{black}Data }$__ __${\color{black}structure}$__
 
+### __${\color{green}Array}$__
+
+### __${\color{green}Vector}$__
+
+### __${\color{green}Set}$__
+
 ## __${\color{black}Function }$__ __${\color{black}and }$__ __${\color{black}Recursive }$__ __${\color{black}Function}$__
 
+### __${\color{green}Function}$__
+
+### __${\color{green}Recursive Function}$__
+
 ## __${\color{black}Algorithms }$__ __${\color{black}และ }$__ __${\color{black}โจทย์ที่แนะนำ}$__
+
+### __${\color{green}Find min/max}$__
+
+### __${\color{green}Sort}$__
+
+### __${\color{green}Linear search}$__
+
+### __${\color{green}Binary search}$__
+
+### __${\color{green}Range Sum Query or Quick Sum}$__
 
 ## __${\color{black}Tips }$__ __${\color{black}from }$__ __${\color{black}opal Inwza007x}$__
 
