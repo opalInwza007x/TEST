@@ -529,7 +529,7 @@ Array เอาไว้ใช้ตอนที่โจทย์จะนำ�
 
 ## __${\color{black}Algorithms }$__ __${\color{black}และ }$__ __${\color{black}โจทย์ที่แนะนำ}$__
 
-### __${\color{green}Find min/max}$__
+### __${\color{green}Find }$__ ### __${\color{green}min/max}$__
 
 ### __${\color{green}Sort}$__
 
