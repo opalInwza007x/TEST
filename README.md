@@ -459,7 +459,7 @@ opal_Inwza007x ก็เป็นเด็กธรรมดาคนนึง�
 
 ## __${\color{black}Time }$__ __${\color{black}Complexity}$__
 
-<img src="https://github.com/opalInwza007x/TEST/assets/114739286/c721ce33-4772-41ea-a51b-17fa35cdb6ca" width="385px" align="center">
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/99bd4e6d-f1f8-4808-b533-e56aff5dc503" width="385px" align="center">
 
 มีเว็บที่อธิบายแล้วผมชอบอยู่ ไปดูกันได้ครับ [เข้าใจ Big O Notation แบบไฟลุกตีนไหม้](https://rayriffy.com/blog/big-o-notation)
 
