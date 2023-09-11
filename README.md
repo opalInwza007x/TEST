@@ -525,15 +525,15 @@ Array เอาไว้ใช้ตอนที่โจทย์จะนำ�
 
 ## __${\color{black}Algorithms }$__ __${\color{black}และ }$__ __${\color{black}โจทย์ที่แนะนำ}$__
 
-### __${\color{green}Find }$__ ### __${\color{green}min/max}$__
+### __${\color{green}Find }$__ __${\color{green}min/max}$__
 
 ### __${\color{green}Sort}$__
 
-### __${\color{green}Linear search}$__
+### __${\color{green}Linear }$__ __${\color{green}Search}$__
 
-### __${\color{green}Binary search}$__
+### __${\color{green}Binary }$__  __${\color{green}Search}$__
 
-### __${\color{green}Range Sum Query or Quick Sum}$__
+### __${\color{green}Range }$__ __${\color{green}Sum }$__ __${\color{green}Query }$__ __${\color{green}or }$__ __${\color{green}Quick }$__ __${\color{green}Sum}$__
 
 ## __${\color{black}Tips }$__ __${\color{black}from }$__ __${\color{black}opal Inwza007x}$__
 
