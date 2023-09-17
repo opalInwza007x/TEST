@@ -180,13 +180,19 @@ __1. ผสาน (Merge)__
 
 > <img src="https://github.com/opalInwza007x/TEST/assets/114739286/3df0d493-2dfb-4862-ad4a-69bcdf9a565f" width="500px" align="center">
 
+__ขอสั้นๆ :__
+
 __2. นักสำรวจ (Explorer)__
 
 > <img src="https://github.com/opalInwza007x/TEST/assets/114739286/342bf9e6-dce6-4d52-a30f-c7d30023db73" width="500px" align="center">
 
+__ขอสั้นๆ :__
+
 __3. สร้อยอัญมณี (Jewelry Necklace)__
 
 > <img src="https://github.com/opalInwza007x/TEST/assets/114739286/c1bf4828-a7b1-4733-8965-cfe0aea83fda" width="500px" align="center">
+
+__ขอสั้นๆ :__ COMING !SOON
 
 การแข่งขันคอมพิวเตอร์โอลิมปิกระดับชาติครั้งที่ 19 วันที่ 2 โจทย์ 3 ข้อ มีเวลาให้ 4 ชั่วโมง
 
@@ -194,14 +200,19 @@ __1. เติมพลังงาน (Energy)__
 
 > <img src="https://github.com/opalInwza007x/TEST/assets/114739286/df32d588-3b34-4609-82f0-7a2bff665ee1" width="500px" align="center">
 
+__ขอสั้นๆ :__
+
 __2. พิด’โลก (Phitsanulok)__
 
 > <img src="https://github.com/opalInwza007x/TEST/assets/114739286/f25c2312-b410-48e2-999f-9e2f53b6c6eb" width="500px" align="center">
+
+__ขอสั้นๆ :__ COMING !SOON
 
 __3. บ้านมุง (Range)__
 
 > <img src="https://github.com/opalInwza007x/TEST/assets/114739286/cb05213f-659f-47a5-b759-f02ea4e22834" width="500px" align="center">
 
+__ขอสั้นๆ :__
 
 ## จุดจบ(?)
 
