@@ -180,7 +180,7 @@ __1. ผสาน (Merge)__
 
 > <img src="https://github.com/opalInwza007x/TEST/assets/114739286/3df0d493-2dfb-4862-ad4a-69bcdf9a565f" width="500px" align="center">
 
-__ขอสั้นๆ :__
+__ขอสั้นๆ :__ 
 
 __2. นักสำรวจ (Explorer)__
 
