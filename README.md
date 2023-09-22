@@ -406,57 +406,57 @@ __ขอสั้นๆ :__ จะมีภูเขาหลายๆลูก 
 
 ### Solution
 
-#include <bits/stdc++.h>
-#define F first
-#define S second
-
-using namespace std;
-
-typedef long long ll;
-typedef pair<ll, ll> pll;
-typedef pair<ll, pll> plpll;
-
-const ll maxn = 4e5 + 5;
-
-vector<plpll> vec;
-vector<ll> ans;
-ll memo_lis[maxn];
-
-bool comp(plpll a, plpll b) {
-    if (a.F == b.F) {
-        return a.S.F < b.S.F;
-    }
-    return a.F > b.F;
-}
-
-int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-
-    ll n;
-    cin >> n;
-    for (int i = 0; i < n; i++) {
-        ll x, y;
-        cin >> x >> y;
-        vec.emplace_back(x, make_pair(y, i));
-    }
-    sort(vec.begin(), vec.end(), comp);
-    for (int i = 0; i < n; i++) {
-        ll pos = upper_bound(ans.begin(), ans.end(), vec[i].S.F) - ans.begin();
-        if (pos == ans.size()) {
-            ans.push_back(vec[i].S.F);
+    #include <bits/stdc++.h>
+    #define F first
+    #define S second
+    
+    using namespace std;
+    
+    typedef long long ll;
+    typedef pair<ll, ll> pll;
+    typedef pair<ll, pll> plpll;
+    
+    const ll maxn = 4e5 + 5;
+    
+    vector<plpll> vec;
+    vector<ll> ans;
+    ll memo_lis[maxn];
+    
+    bool comp(plpll a, plpll b) {
+        if (a.F == b.F) {
+            return a.S.F < b.S.F;
         }
-        else {
-            ans[pos] = vec[i].S.F;
+        return a.F > b.F;
+    }
+    
+    int main() {
+        ios_base::sync_with_stdio(0);
+        cin.tie(0);
+    
+        ll n;
+        cin >> n;
+        for (int i = 0; i < n; i++) {
+            ll x, y;
+            cin >> x >> y;
+            vec.emplace_back(x, make_pair(y, i));
         }
-        memo_lis[vec[i].S.S] = pos;
+        sort(vec.begin(), vec.end(), comp);
+        for (int i = 0; i < n; i++) {
+            ll pos = upper_bound(ans.begin(), ans.end(), vec[i].S.F) - ans.begin();
+            if (pos == ans.size()) {
+                ans.push_back(vec[i].S.F);
+            }
+            else {
+                ans[pos] = vec[i].S.F;
+            }
+            memo_lis[vec[i].S.S] = pos;
+        }
+        cout << ans.size() << "\n";
+        for (int i = 0; i < n; i++) {
+            cout << memo_lis[i] + 1 << " ";
+        }
+        return 0;
     }
-    cout << ans.size() << "\n";
-    for (int i = 0; i < n; i++) {
-        cout << memo_lis[i] + 1 << " ";
-    }
-    return 0;
-}
 
 ข้อนี้ถ้าดูออกเป็น LIS ก็จบเกมแล้วครับ แค่กลับด้านนิดหน่อย ผมเก็บ subtasks ได้มาตั้ง 42 คะแนนแหน่ะ555(;-;)
 
