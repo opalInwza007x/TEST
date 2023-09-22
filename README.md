@@ -182,6 +182,77 @@ __1. ผสาน (Merge)__
 
 __ขอสั้นๆ :__ ขอนี้เข้าใจยากมากกกกกกกกก ผมอ่านอยู่กว่าครึ่งชั้วโมงเลย เพื่อความเข้าใจจะเปลี่ยนวิธีการอธิบายเลยละกัน มีบริษัทรถขายไอติม x และ y โดยเรามีข้อมูลว่าแต่ละบริษัทรถขายไอติมจะมีอยู่กี่คัน แต่ละคันจะอยู่ที่จุดไหนและในคันๆนั้นจะมีไอติมอยู่กี่แท่ง โดยเราจะโดนถาม q ครั้ง แต่ละครั้งถามว่าถ้าเราอยู่ที่จุด -inf จะต้องเดินไปทาง +inf อีกอย่างน้อยเท่าไหร่ ถึงจะซื้อไอติมได้ครบ k แท่ง จากทั้งบริษัทรถขายไอติม x, y แต่แค่นั้นไม่พอ บริษัทรถขายไอติม y ทั้งหมดจะย้ายตำแหน่งทุกๆครั้งที่โดนถาม โดยตำแหน่งจะเปลี่ยนเป็น new_position = a * old_position + b เมื่อ a, b คือ input
 
+### Observation 1 Linear function
+
+> <img src="https://github.com/opalInwza007x/TEST/assets/114739286/0b105e05-87d4-49bf-aaea-3727746f6144" width="500px" align="center">
+
+ลองดูรูปนี้ดีๆครับ ผมให้แนวนอนคือตำแหน่งใดๆ และให้แนวตั้งคือจำนวนไอติมที่รถไอติมตำแหน่งนั้นมี ถ้าผมถามว่ายิ่งเราเลื่อนไปทางขวาค่าที่เราได้ยิ่งมากขึ้นใช่ไหมครับ? 
+ถ้าพูดถึงฟังก์ชันที่เป็นเส้นตรง แน่นอนว่ามันคือ!!!! Binary Search นั่นเองเองเองเอง... แล้วเราก็ทำ quick sum เอาไว้ พอได้ตำแหน่งก็ได้ค่าใน O(1) เลย
+
+### Observation 2 Inverse
+
+> <img src="https://github.com/opalInwza007x/TEST/assets/114739286/f6dd9223-a4b3-4cc7-81d9-ac36bbf9f1fc" width="500px" align="center">
+
+เพื่อความสะดวกเราจะแยกเคสของบริษัทขายไอติม x และ y ละกัน โดยบริษัทขายไอติม x เราแก้ได้ด้วยอันข้างบนละ ตอนนี้เหลือบริษัทขายไอติม y ที่เปลี่ยนตำแหน่งตลอดเวลา
+
+สมมติเรามี vector นึงที่มีค่าเป็นฟังก์ชันเพิ่ม ต้องการ Binary Search ค่า mid แล้วเราต้องเปลี่ยนค่าใน vector ทั้งหมดเป็น new_val = a * old_val + b แล้ว Binary Search ค่า mid เราต้องใช้เวลาเปลี่ยน O(n) แต่ถ้าเราหา inverse ได้จากการทำ old_val = (new_val - b) / a คราวนี้เราไม่ต้องเปลี่ยนค่าใน vector ละ เรา Binary Search ค่า (mid - b) / a แทนเลย // มีม Mind Blowing
+
+    Binary_search(change(vector), mid) = Binary_search(vector, inverse_change(mid))
+    // change function Time O(n)
+    // inverse_change function Time O(1)
+
+### Solution
+
+    #include <bits/stdc++.h>
+
+    using namespace std;
+    
+    typedef long long ll;
+    
+    const ll maxn = 1e5 + 5;
+    const ll inf = 1e9;
+    
+    ll arr_x[maxn], arr_y[maxn], rsq_x[maxn], rsq_y[maxn];
+    
+    int main() {
+        ios_base::sync_with_stdio(0);
+        cin.tie(0);
+    
+        ll n, m, q;
+        cin >> n >> m >> q;
+        for (int i = 0; i < n; i++) {
+            cin >> arr_x[i];
+        }
+        for (int i = 1; i <= n; i++) {
+            cin >> rsq_x[i];
+            rsq_x[i] += rsq_x[i - 1];
+        }
+        for (int i = 0; i < m; i++) {
+            cin >> arr_y[i];
+        }
+        for (int i = 1; i <= m; i++) {
+            cin >> rsq_y[i];
+            rsq_y[i] += rsq_y[i - 1];
+        }
+        for (int i = 0; i < q; i++) {
+            ll a, b, k;
+            cin >> a >> b >> k;
+            ll l = -inf, r = inf;
+            while (l < r) {
+                ll mid = l + (r - l) / 2;
+                ll sum = rsq_x[upper_bound(arr_x, arr_x + n, mid) - arr_x] + rsq_y[upper_bound(arr_y, arr_y + m, (mid - b) / a) - arr_y];
+                if (k > sum) {
+                    l = mid + 1;
+                }
+                else {
+                    r = mid;
+                }
+            }
+            cout << l << "\n";
+        }
+        return 0;
+    }
+
 __2. นักสำรวจ (Explorer)__
 
 > <img src="https://github.com/opalInwza007x/TEST/assets/114739286/342bf9e6-dce6-4d52-a30f-c7d30023db73" width="500px" align="center">
