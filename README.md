@@ -264,7 +264,63 @@ __2. นักสำรวจ (Explorer)__
 
 > <img src="https://github.com/opalInwza007x/TEST/assets/114739286/342bf9e6-dce6-4d52-a30f-c7d30023db73" width="500px" align="center">
 
-__ขอสั้นๆ :__
+__ขอสั้นๆ :__ ขอนี้ก็เข้าใจยากเหมือนกัน โจทย์จะให้การเดินรูปแบบเฉพาะมา แล้วเราต้องแปลงกลับเป็นกราฟ แล้วก็ใช้ math หาเส้นทางทั้งหมดที่เป็นไปได้
+
+ข้อนี้ท่าน [krist7599555](https://github.com/krist7599555/toi/tree/master/toi19/toi19_explorer) เขียนไว้ดีมากครับ ส่วนผม BFS ใหม่หมดแม่ม
+
+### Bruh Solution
+
+    #include <bits/stdc++.h>
+    
+    using namespace std;
+    
+    typedef long long ll;
+    
+    const ll maxn = 5e5 + 5;
+    const ll mod = 1e9 + 7;
+    
+    ll fac[maxn], child[maxn], re = 1;
+    vector<ll> edge[maxn];
+    bool visited[maxn] = {};
+    queue<ll> qu;
+    
+    int main() {
+        ios_base::sync_with_stdio(0);
+        cin.tie(0);
+    
+        fac[0] = 1;
+        for (int i = 1; i < maxn; i++) {
+            fac[i] = i * fac[i - 1];
+            fac[i] %= mod;
+        }
+        ll n, x;
+        cin >> n >> x;
+        for (int i = 1; i < 2 * n - 1; i++) {
+            ll y;
+            cin >> y;
+            edge[x].emplace_back(y);
+            x = y;
+        }
+        qu.emplace(x);
+        while (!qu.empty()) {
+            ll nownode = qu.front();
+            qu.pop();
+            if (visited[nownode]) continue;
+            visited[nownode] = 1;
+            for (auto e : edge[nownode]) {
+                if (!visited[e]) {
+                    child[nownode]++;
+                    qu.emplace(e);
+                }
+            }
+            re *= (fac[child[nownode]] != 0 ? fac[child[nownode]] : 1);
+            re %= mod;
+        }
+        cout << re;
+        return 0;
+    }
+
+ข้อนี้ไม่มีไรมากครับ ขนาดตอนผมส่งได้เต็มยังงงเลย ส่วนอันโค้ดข้างบนว่างๆเดี๋ยวมาแก้ครับ เขียนเหมือนไม่ให้คนอ่านเลย555
 
 __3. สร้อยอัญมณี (Jewelry Necklace)__
 
