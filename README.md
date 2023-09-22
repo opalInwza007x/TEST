@@ -396,7 +396,69 @@ __3. บ้านมุง (Range)__ [ลองทำ](https://programming.in.th
 
 > <img src="https://github.com/opalInwza007x/TEST/assets/114739286/cb05213f-659f-47a5-b759-f02ea4e22834" width="500px" align="center">
 
-__ขอสั้นๆ :__ จะมีภูเขาหลายๆลูก แต่ละลูกเราจะเริ่มที่จุด l และจบทีี่จุด r โดยโจทย์ต้องการหาคะแนนของภูเขามากที่สุด และคะแนนของภูเขาแต่ละลูก โดยคะแนนของภูเขาใดๆคือ คะแนนของภูเขาที่มากที่สุดของภูเขาลูกน้อง + 1 เมื่อภูเขาลูกน้องมีขอบเขตคือ ((l น้อง >= l พี่) และ (r น้อง <= r พี่)) เมื่อภูเขาลูกพี่ไม่มีภูเขาลูกน้อง คะแนนของภูเขาลูกนั้นคือ 1
+__ขอสั้นๆ :__ จะมีภูเขาหลายๆลูก แต่ละลูกเราจะเริ่มที่จุด l และจบทีี่จุด r โดยโจทย์ต้องการหาคะแนนของภูเขามากที่สุด และคะแนนของภูเขาแต่ละลูก โดยคะแนนของภูเขาใดๆคือ คะแนนของภูเขาที่มากที่สุดของภูเขาลูกน้อง + 1 เมื่อภูเขาลูกน้องมีขอบเขตคือ ((l น้อง >= l พี่) และ (r น้อง <= r พี่)) และเมื่อภูเขาลูกพี่ไม่มีภูเขาลูกน้อง คะแนนของภูเขาลูกนั้นคือ 1
+
+### Observation 1 LIS
+
+> <img src="https://github.com/opalInwza007x/TEST/assets/114739286/287432e7-ae8b-43df-af77-a7ee4d0013ca" width="500px" align="center">
+
+นี่มันนิยาม LIS นี่เอง ทำไมในห้องสอบผมถึงดูไม่ออกกันนะ555
+
+### Solution
+
+#include <bits/stdc++.h>
+#define F first
+#define S second
+
+using namespace std;
+
+typedef long long ll;
+typedef pair<ll, ll> pll;
+typedef pair<ll, pll> plpll;
+
+const ll maxn = 4e5 + 5;
+
+vector<plpll> vec;
+vector<ll> ans;
+ll memo_lis[maxn];
+
+bool comp(plpll a, plpll b) {
+    if (a.F == b.F) {
+        return a.S.F < b.S.F;
+    }
+    return a.F > b.F;
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+
+    ll n;
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        ll x, y;
+        cin >> x >> y;
+        vec.emplace_back(x, make_pair(y, i));
+    }
+    sort(vec.begin(), vec.end(), comp);
+    for (int i = 0; i < n; i++) {
+        ll pos = upper_bound(ans.begin(), ans.end(), vec[i].S.F) - ans.begin();
+        if (pos == ans.size()) {
+            ans.push_back(vec[i].S.F);
+        }
+        else {
+            ans[pos] = vec[i].S.F;
+        }
+        memo_lis[vec[i].S.S] = pos;
+    }
+    cout << ans.size() << "\n";
+    for (int i = 0; i < n; i++) {
+        cout << memo_lis[i] + 1 << " ";
+    }
+    return 0;
+}
+
+ข้อนี้ถ้าดูออกเป็น LIS ก็จบเกมแล้วครับ แค่กลับด้านนิดหน่อย ผมเก็บ subtasks ได้มาตั้ง 42 คะแนนแหน่ะ555(;-;)
 
 ## จุดจบ(?)
 
