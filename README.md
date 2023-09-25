@@ -978,6 +978,42 @@ Set ก็เป็น Data structure ที่มีประโยชน์อ
 
 ## __${\color{black}Function }$__ __${\color{black}and }$__ __${\color{black}Recursive }$__ __${\color{black}Function}$__
 
+### __${\color{green}Function}$__
+
+ในภาษา c++ เราก็จะมีการสร้างฟังก์ชันง่ายๆโดยแบ่งตามฉบับผมได้ 2 แบบ
+
+    void <function_name>() {
+        // process;
+    }
+
+    // เช่น
+
+    void solve() {
+        // process;
+    }
+
+หรืออีกแบบนึง
+
+    <variable> <function_name>() {
+        // process
+        return solution;
+    }
+
+    // เช่น
+
+    int find_segment3() {
+        // process
+        return 0;
+    }
+
+โดยใน () เราจะใช้รับค่า ตามที่เราจะส่งขึ้นไปได้เลยแต่ห้ามขาดห้ามเกิน
+
+* แบบที่ 1 void เป็นฟังก์ชันเราไม่ต้องการค่ากลับมา ไม่เปลืองความจำเยอะ ใช้ดีครับเยี่ยมๆ
+
+* แบบที่ 2 เป็น variable ไรก็ได้ โดยเราจะตั้งตามค่าที่เราอยากได้ตอน return กลับ
+
+__${\color{green}Recursive }$__ __${\color{green}Function}$__
+
 ## __${\color{black}Algorithms }$__ __${\color{black}และ }$__ __${\color{black}โจทย์ที่แนะนำ}$__
 
 ### __${\color{green}Find }$__ __${\color{green}min/max}$__
