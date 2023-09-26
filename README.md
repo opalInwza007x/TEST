@@ -624,7 +624,7 @@ __ขอสั้นๆ :__ จะมีภูเขาหลายๆลูก 
     char a = 'z';
     printf("%lld\n%c", n, c); // ส่วนอันนี้ไม่มี & อย่าไปงงในห้องสอบล่ะ
 
-## __${\color{red}Conditions }$__ __${\color{black}and }$__ __${\color{black}If }$__ __${\color{black}Statements}$__
+## __${\color{black}Conditions }$__ __${\color{black}and }$__ __${\color{black}If }$__ __${\color{black}Statements}$__
 
 ในภาษา c++ เนี่ยก็จะใช้ตรรกะเหมือนคณิตศาสตร์เลย โดยหลักๆมีดังนี้ (Colon : เป็นเครื่องหมายที่มีการใช้เฉพาะทาง มีความหมายว่า "ดังต่อไปนี้")
 
