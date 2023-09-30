@@ -1018,6 +1018,11 @@ Set ก็เป็น Data structure ที่มีประโยชน์อ
 
 __${\color{green}Recursive }$__ __${\color{green}Function}$__
 
+เป็นฟังก์ชันที่เรียกใช้ฟังก์ชันตัวมันเอง ที่นิยมสุดเลยก็ Fibonacci Number
+
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/0b3a0627-75dd-46a1-9094-cf0c9c1f0a7b" width="385px" align="center">
+
+
 ## __${\color{black}Algorithms }$__ __${\color{black}และ }$__ __${\color{black}โจทย์ที่แนะนำ}$__
 
 ### __${\color{green}Find }$__ __${\color{green}min/max}$__
