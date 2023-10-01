@@ -1018,9 +1018,19 @@ Set ก็เป็น Data structure ที่มีประโยชน์อ
 
 __${\color{green}Recursive }$__ __${\color{green}Function}$__
 
-เป็นฟังก์ชันที่เรียกใช้ฟังก์ชันตัวมันเอง ที่นิยมสุดเลยก็ Fibonacci Number
+เป็นฟังก์ชันที่เรียกใช้ฟังก์ชันตัวมันเอง ที่นิยมนำมาอธิบายที่สุดเลยก็ Fibonacci Number ซึ่ง fibo คือเลขที่เอาสองตัวก่อนหน้านั้นบวกกันต่อกันไปเรื่อยๆ โดยที่มี Base Case คือ 0 และ 1 
+โดยลำดับเริ่มที่ 0 เป็น 0 1 1 2 3 5 8 13 21 34...
 
 <img src="https://github.com/opalInwza007x/TEST/assets/114739286/0b3a0627-75dd-46a1-9094-cf0c9c1f0a7b" width="385px" align="center">
+
+    long long fibo(long long n) {
+        if (n == 0) 
+            return 0;
+        if (n == 1)
+            return 1;
+        return fibo(n - 2) + fibo(n - 1);
+    }
+
 
 
 ## __${\color{black}Algorithms }$__ __${\color{black}และ }$__ __${\color{black}โจทย์ที่แนะนำ}$__
