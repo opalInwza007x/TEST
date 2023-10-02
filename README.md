@@ -972,9 +972,13 @@ Set ก็เป็น Data structure ที่มีประโยชน์อ
 
 ถ้าโจทย์อยากให้เรียงส่วนใหญ่จะไปใช้ priority queue มากกว่า แต่อันนั้นเนื้อหาค่าย 2 อะเนอะ แต่รู้ไว้ก็ดีครับ ของโกง
 
+### __${\color{green}Stack}$__
+
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/1c1c6d87-d834-4c59-abf4-776e18b9b13d" width="385px" align="center">
+
 ### __${\color{green}Queue}$__
 
-### __${\color{green}Stack}$__
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/7d62c549-bd34-4e48-8784-957c617409fe" width="385px" align="center">
 
 ## __${\color{black}Function }$__ __${\color{black}and }$__ __${\color{black}Recursive }$__ __${\color{black}Function}$__
 
