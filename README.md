@@ -1110,6 +1110,8 @@ __ตัวอย่างโจทย์ใน OTOG__
 
 สามารถสรุปเป็นโค้ดดังนี้
 
+$ x_i $
+
     
 
 ### __${\color{green}Range }$__ __${\color{green}Sum }$__ __${\color{green}Query }$__ __${\color{green}or }$__ __${\color{green}Quick }$__ __${\color{green}Sum}$__
