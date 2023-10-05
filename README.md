@@ -1113,51 +1113,51 @@ __ตัวอย่างโจทย์ใน OTOG__
 
 สามารถสรุปเป็นโค้ดดังนี้
 
-    ```c++
-    #include <bits/stdc++.h>
+```c++
+#include <bits/stdc++.h>
     
-    using namespace std;
+using namespace std;
     
-    typedef long long ll;
+typedef long long ll;
     
-    int main(){
-        ios_base::sync_with_stdio(0);
-    	   cin.tie(0);
+int main(){
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
     
-    	   int n,m;
-    	   cin >> n >> m;
-    	   for(int i = 0; i < n; i++){
-    		      ll x;
-    		      cin>>x;
-    		      vec.push_back(x);
+    int n,m;
+    cin >> n >> m;
+    for(int i = 0; i < n; i++){
+    		  ll x;
+    		  cin>>x;
+    		  vec.push_back(x);
+    }
+    
+    sort(vec.begin(),vec.end());
+    
+    for(int i = 0; i < m; i++){
+    	   int x;
+    	  	cin >> x;
+       	if(x < vec[0]){
+    		     	cout << -1 << '\n';
+    		     	continue;
     	   }
-    
-    	   sort(vec.begin(),vec.end());
-    
-    	   for(int i = 0; i < m; i++){
-    		      int x;
-    	      	cin >> x;
-          		if(x < vec[0]){
-    		         	cout << -1 << '\n';
-    		         	continue;
-    	      	}
-    		      ll l = 0;
-    		      ll r = vec.size();
-    	      	while(l < r){
-    		     	    ll mid = (l + r) / 2;
-    			         if(x >= vec[mid]){
-    			            	l = mid + 1;
-    			         }
+    		  ll l = 0;
+    		  ll r = vec.size();
+    	   while(l < r){
+    		      ll mid = (l + r) / 2;
+    			     if(x >= vec[mid]){
+    			        	l = mid + 1;
+    			     }
     			
-    		         	else{
-    			            	r = mid;
-    		     	    }
-    	       }
-    		      cout << vec[l-1] << '\n';
-        	}
-    	return 0;
- } 
- ```
+    		     	else{
+    			        	r = mid;
+    		     	}
+    	   }
+    		  cout << vec[l-1] << '\n';
+     }
+return 0;
+} 
+```
 
 ### __${\color{green}Range }$__ __${\color{green}Sum }$__ __${\color{green}Query }$__ __${\color{green}or }$__ __${\color{green}Quick }$__ __${\color{green}Sum}$__
 
