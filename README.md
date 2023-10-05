@@ -1106,14 +1106,58 @@ __ตัวอย่างโจทย์ใน OTOG__
 [ไบนารีเสิร์ช](https://api.otog.cf/problem/doc/285)
 
 กำหนดให้แถวลำดับ (array) ของตัวเลขจำนวนเต็มบวกที่แตกต่างกัน N ตัว หน้าที่ของคุณคือ รับคำสั่ง
-จำนวน M คำสั่ง แต่ละคำสั่งจะกำหนดจำนวนเต็ม $x_y$ มาให้โปรแกรมของคุณต้องหาสมาชิกในแถว
-ลำดับที่มีค่ามากที่สุดที่ไม่เกินค่าของ $x_y$ แต่หากหาไม่ได้แล้วไซร้ก็ให้ตอบว่า -1 แทน
+จำนวน M คำสั่ง แต่ละคำสั่งจะกำหนดจำนวนเต็ม $x_i$ มาให้โปรแกรมของคุณต้องหาสมาชิกในแถว
+ลำดับที่มีค่ามากที่สุดที่ไม่เกินค่าของ $x_i$ แต่หากหาไม่ได้แล้วไซร้ก็ให้ตอบว่า -1 แทน
+
+ข้อนี้ลองคิดสภาพ
 
 สามารถสรุปเป็นโค้ดดังนี้
 
-
-
+    ```c++
+    #include <bits/stdc++.h>
     
+    using namespace std;
+    
+    typedef long long ll;
+    
+    int main(){
+        ios_base::sync_with_stdio(0);
+    	   cin.tie(0);
+    
+    	   int n,m;
+    	   cin >> n >> m;
+    	   for(int i = 0; i < n; i++){
+    		      ll x;
+    		      cin>>x;
+    		      vec.push_back(x);
+    	   }
+    
+    	   sort(vec.begin(),vec.end());
+    
+    	   for(int i = 0; i < m; i++){
+    		      int x;
+    	      	cin >> x;
+          		if(x < vec[0]){
+    		         	cout << -1 << '\n';
+    		         	continue;
+    	      	}
+    		      ll l = 0;
+    		      ll r = vec.size();
+    	      	while(l < r){
+    		     	    ll mid = (l + r) / 2;
+    			         if(x >= vec[mid]){
+    			            	l = mid + 1;
+    			         }
+    			
+    		         	else{
+    			            	r = mid;
+    		     	    }
+    	       }
+    		      cout << vec[l-1] << '\n';
+        	}
+    	return 0;
+ } 
+ ```
 
 ### __${\color{green}Range }$__ __${\color{green}Sum }$__ __${\color{green}Query }$__ __${\color{green}or }$__ __${\color{green}Quick }$__ __${\color{green}Sum}$__
 
