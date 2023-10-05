@@ -1152,7 +1152,7 @@ int main(){
         cout << vec[l - 1] << "\n";
     }
     return 0;
-} 
+}
 ```
 
 ### __${\color{green}Range }$__ __${\color{green}Sum }$__ __${\color{green}Query }$__ __${\color{green}or }$__ __${\color{green}Quick }$__ __${\color{green}Sum}$__
