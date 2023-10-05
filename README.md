@@ -1124,38 +1124,34 @@ int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     
-    int n,m;
+    ll n, m;
     cin >> n >> m;
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; i++) {
     		  ll x;
-    		  cin>>x;
+    		  cin >> x;
     		  vec.push_back(x);
     }
-    
     sort(vec.begin(),vec.end());
-    
-    for(int i = 0; i < m; i++){
-    	   int x;
+    for (int i = 0; i < m; i++) {
+    	   ll x;
     	  	cin >> x;
-       	if(x < vec[0]){
-    		     	cout << -1 << '\n';
+       	if (x < vec[0]) {
+    		     	cout << -1 << "\n";
     		     	continue;
     	   }
-    		  ll l = 0;
-    		  ll r = vec.size();
-    	   while(l < r){
-    		      ll mid = (l + r) / 2;
-    			     if(x >= vec[mid]){
+    		  ll l = 0, r = vec.size() - 1;
+    	   while (l < r) {
+    		      ll mid = l + (r - l) / 2;
+    			     if (x >= vec[mid]) {
     			        	l = mid + 1;
     			     }
-    			
     		     	else{
     			        	r = mid;
     		     	}
     	   }
-    		  cout << vec[l-1] << '\n';
-     }
-return 0;
+        cout << vec[l - 1] << "\n";
+    }
+    return 0;
 } 
 ```
 
