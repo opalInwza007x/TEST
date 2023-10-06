@@ -1162,6 +1162,12 @@ int main(){
 
 ### __${\color{green}Range }$__ __${\color{green}Sum }$__ __${\color{green}Query }$__ __${\color{green}or }$__ __${\color{green}Quick }$__ __${\color{green}Sum}$__
 
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/fa8860c2-849a-4238-b56a-a930a353e296" width="385px" align="center">
+
+โจทย์แนวนี้จะเกี่ยวกับการที่เราจะถามการบวกตั้งแต่ช่วง [l, r] ถามหลายๆครั้ง ถ้าเราบวกไปแบบปกติเนี่ย จะทำให้ Time Complexity เป็น O(NQ) เมื่อ N คือตวามยาว array และ Q คือจำนวนครั้งที่ถาม 
+แต่เรามีวิธีที่ดีกว่านั้น เราจะตั้ง array มาอีกตัวนึงที่มีค่าตำแหน่งที่ i คือ $\sum_{k=1}^i a_k$
+
+
 <details>
  <summary>กดเพื่อดูของดี >:3</summary>
      <img src="https://github.com/opalInwza007x/TEST/assets/114739286/8024923d-436d-457b-9039-050c20a66932" width="385px" align="center">
