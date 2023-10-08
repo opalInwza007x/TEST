@@ -1172,6 +1172,44 @@ int main(){
 
 __ตัวอย่างโจทย์ใน OTOG__
 
+[Problem G Range Sum Query](https://api.otog.cf/problem/doc/154)
+
+Given a list L containing n integers, find the Range Sum Query (RSQ) between index i and j,
+inclusive, i.e. RSQ(i, j) = L[i] + L[i+1] + L[i+2] + ... + L[j]. 
+
+```c++
+#include <bits/stdc++.h>
+
+using namespace std;
+
+typedef long long ll;
+
+const ll maxn = 1e5 + 5;
+
+ll rsq[maxn];
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+
+    ll t;
+    cin >> t;
+    for (int i = 0; i < t; i++) {
+        ll n, q;
+        cin >> n >> q;
+        for (int j = 0; j < n; j++) {
+            cin >> rsq[j];
+            rsq[j] += (j == 0 ? 0 : rsq[j - 1]);
+        }
+        for (int j = 0; j < q; j++) {
+            ll a, b;
+            cin >> a >> b;
+            cout << rsq[b] - (a == 0 ? 0 : a - 1) << "\n";
+        }
+    }
+    return 0;
+}
+```
 
 <details>
  <summary>กดเพื่อดูของดี >:3</summary>
