@@ -12,6 +12,8 @@
 - [The 19th Thailand Olympiad in Informatics](https://github.com/opalInwza007x/TEST/blob/main/README.md#the-19th-thailand-olympiad-in-informatics)
 
 - [จุดจบ](https://github.com/opalInwza007x/TEST/blob/main/README.md#%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%88%E0%B8%9A)
+
+- [วาปไปเขียนค่าย 2](https://github.com/opalInwza007x/TEST/blob/main/README.md#%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%88%E0%B8%9A)
  
 สวัสดีผู้อ่านทุกท่านครับ พวกคุณเคยสนใจเรื่องสอวน. คอมพิวเตอร์กันไหมครับ?
 
@@ -1210,6 +1212,9 @@ int main() {
     return 0;
 }
 ```
+
+# เนื้อหาค่าย 2 สอวน.คอมพิวเตอร์
+ปล. นี่เป็นภาษา opal_Inwza007x ถ้าไม่เข้าใจ ก็ไปถาม [opal_Inwza007x](https://www.facebook.com/profile.php?id=100002974790342)
 
 <details>
  <summary>กดเพื่อดูของดี >:3</summary>
