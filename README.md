@@ -1,5 +1,5 @@
 # เส้นทางในสอวน. คอมพิวเตอร์ ของ opal_Inwza007x 
-
+ 
 ## สารบัญ
 - [การเริ่มต้น](https://github.com/opalInwza007x/TEST/blob/main/README.md#%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99)
 
