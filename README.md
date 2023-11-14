@@ -1214,7 +1214,7 @@ int main() {
 ```
 
 # เนื้อหาค่าย 2 สอวน.คอมพิวเตอร์
-ปล. นี่เป็นภาษา opal_Inwza007x ถ้าไม่เข้าใจ ก็ไปถาม [opal_Inwza007x](https://www.facebook.com/profile.php?id=100002974790342)
+ปล. นี่เป็นภาษา opal_Inwza007x ถ้าไม่เข้าใจ ก็ไปถาม [opal_Inwza007x](https://www.facebook.com/profile.php?id=100002974790342) 
 
 <details>
  <summary>กดเพื่อดูของดี >:3</summary>
