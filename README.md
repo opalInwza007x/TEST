@@ -1324,6 +1324,9 @@ ll solve(ll m) {
 
 __การทำงานของ Test case#2__
 
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/5ce64bf5-c8c7-41bd-8030-db378799a407" width="385px" align="center">
+
+
 <details>
  <summary>กดเพื่อดูของดี >:3</summary>
      <img src="https://github.com/opalInwza007x/TEST/assets/114739286/8024923d-436d-457b-9039-050c20a66932" width="385px" align="center">
