@@ -1292,11 +1292,11 @@ ll solve(ll m) {
     if (m < 0) {
         return inf;
     }
-    ll little = inf; // เวลาหาค่าน้อยๆ ตั้งค่ามากๆ ไว้ก่อน
+    ll min_change = inf; // เวลาหาค่าน้อยๆ ตั้งค่ามากๆ ไว้ก่อน
     for (auto e : coins) {
-        little = min(little, solve(m - e) + 1); // การทอนแต่ละครั้งใช้ 1 เหรียญเท่ากันหมด
+        min_change = min(min_change, solve(m - e) + 1); // การทอนแต่ละครั้งใช้ 1 เหรียญเท่ากันหมด
     }
-    return little;
+    return min_change;
 }
 ```
 
@@ -1314,11 +1314,11 @@ ll solve(ll m) {
         return memo[m]; // เคยมาแล้ว
     }
     visited[m] = 1; // ถ้ายังไม่เคยมา ตอนนี้ก็มาแล้ว
-    ll little = inf;
+    ll min_change = inf;
     for (auto e : coins) {
-        little = min(little, solve(m - e));
+        min_change = min(min_change, solve(m - e) + 1);
     }
-    memo[m] = little // จำค่าไว้
+    memo[m] = min_change // จำค่าไว้
     return memo[m];
 }
 ```
