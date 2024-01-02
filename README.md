@@ -1339,7 +1339,7 @@ __การทำงานของ Test case#2__
 
 __Test Case#1__ 
 
-ตารางขนาด 2 × 3
+กำหนดตารางขนาด 2 × 3
 
 <img src="https://github.com/opalInwza007x/TEST/assets/114739286/93377df7-49bf-416c-a550-045a186dc036" width="385px" align="center">
 
