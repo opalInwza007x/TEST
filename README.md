@@ -1466,7 +1466,7 @@ ll solve(ll x, ll y) {
 
 ถ้าสรุปเป็นสมการ recursive ก็ได้ตามภาพเลยครับ
 
-<img src="https://github.com/opalInwza007x/TEST/assets/114739286/de6e3ed5-bf3c-4642-8419-ca4a1986a5d9" width="385px" align="center">
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/e1b9e912-b989-406f-aaa7-2b1b748b430d" width="385px" align="center">
 
 <details>
  <summary>กดเพื่อดูของดี >:3</summary>
