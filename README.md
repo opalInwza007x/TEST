@@ -1409,8 +1409,8 @@ ll solve(ll x, ll y) {
     if (x == n - 1 && y == m - 1) {
         return arr[x][y]; // เดี๋ยวอธิบายด้านล่าง
     }
-    ll path1 = solve(x + 1, y) + arr[x][y]; // เดินทางขวา
-    ll path2 = solve(x, y + 1) + arr[x][y]; // เดินลงล่าง
+    ll path1 = solve(x + 1, y) + arr[x][y]; // เดินลงล่าง
+    ll path2 = solve(x, y + 1) + arr[x][y]; // เดินทางขวา
     reuturn max(path1, path2); // เอาทางที่มีผลรวมมากที่สุด
 }
 ```
@@ -1456,8 +1456,8 @@ ll solve(ll x, ll y) {
         return memo[x][y];
     }
     visited[x][y] = 1;
-    ll path1 = solve(x - 1, y) + arr[x][y]; // ไปทางซ้าย
-    ll path2 = solve(x, y - 1) + arr[x][y]; // ขึ้นข้างบน
+    ll path1 = solve(x - 1, y) + arr[x][y]; // เดินขึ้นข้างบน
+    ll path2 = solve(x, y - 1) + arr[x][y]; // เดินไปทางซ้าย
     reuturn memo[x][y] = max(path1, path2);
 }
 ```
