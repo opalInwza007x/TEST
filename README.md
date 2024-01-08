@@ -1327,7 +1327,7 @@ ll solve(ll m) {
 
 ถ้าสรุปเป็นสมการ recursive ก็ได้ตามภาพเลยครับ
 
-<img src="https://github.com/opalInwza007x/TEST/assets/114739286/de6e3ed5-bf3c-4642-8419-ca4a1986a5d9" width="385px" align="center">
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/de6e3ed5-bf3c-4642-8419-ca4a1986a5d9" width="750px" align="center">
 
 __การทำงานของ Test case#2__
 
