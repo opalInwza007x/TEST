@@ -1526,6 +1526,8 @@ Just wiped out Tomato Town…)
 
 (Day#22 ไม่มีไรมากครับ แค่หิวข้าว)
 
+(Day#23 >:/ )
+
 .
 
 .
