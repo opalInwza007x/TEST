@@ -1588,7 +1588,7 @@ ll solve(ll x, ll y) {
 
 ถ้าสรุปเป็นสมการ recursive ก็ได้ตามภาพเลยครับ
 
-<img src="https://github.com/opalInwza007x/TEST/assets/114739286/e387ca62-5777-4bc5-bf70-93683349b868" width="750px" align="center">
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/46d147ee-8cb6-40ea-8544-dacd0ee8ea94" width="750px" align="center">
 
 <details>
  <summary>กดเพื่อดูของดี >:3</summary>
