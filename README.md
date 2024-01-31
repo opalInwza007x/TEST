@@ -1367,7 +1367,7 @@ __การทำงานของ Test case#2__
 
 <img src="https://github.com/opalInwza007x/TEST/assets/114739286/c8368d66-99c4-4194-8cb6-a45d1d2a8627" width="385px" align="center">
 
-- ซึ่งผลรวมที่เราได้คือ 2 + 4 + 1 + 3 + 7 = 17 ครับ แต่ว่าในอีกเส้นทางนึง
+- ซึ่งผลรวมที่เราได้คือ 2 + 4 + 1 + 3 + 7 = 17 แต่ว่าในอีกเส้นทางนึง
 
 <img src="https://github.com/opalInwza007x/TEST/assets/114739286/88a1a9f5-4bf0-4e3a-9025-2e17760c53fb" width="385px" align="center">
 
