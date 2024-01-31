@@ -1478,35 +1478,19 @@ ll solve(ll x, ll y) {
 
 [source : CSES - Grid Paths](https://cses.fi/problemset/task/1638)
 
-"กำหนดตารางมาให้ขนาด `n × m` โดยแต่ละช่องจะมีทางเดิน `.` และกำแพง `*` โจทย์ต้องการหาจำนวนวิธีทั้งหมดที่เริ่มเดินจากซ้ายบน `(0, 0)` ไปยังขวาล่าง `(n - 1, m - 1)` โดยคำตอบอาจมีขนาดใหญ่ mod ด้วย 1e9 + 7
+"กำหนดตารางมาให้ขนาด `n × m` โดยแต่ละช่องจะมีทางเดิน `.` และกำแพง `*` ต้องการหาจำนวนวิธีเดินทั้งหมดที่เริ่มจากซ้ายบน `(0, 0)` ไปยังขวาล่าง `(n - 1, m - 1)` โดยคำตอบอาจมีขนาดใหญ่ ให้ mod ด้วย `1e9 + 7`
 
 ### Test Case#1
 
-กำหนดตารางขนาด 2 × 3
+กำหนดตารางขนาด 4 × 3
 
-<img src="https://github.com/opalInwza007x/TEST/assets/114739286/93377df7-49bf-416c-a550-045a186dc036" width="385px" align="center">
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/364591ad-fc83-452f-bf21-86a2c3933f64" width="385px" align="center">
 
-- ในกรณีนี้ถ้าเราใช้ Greedy โดยการเลือกไปทางที่มี value มากที่สุดตลอดก็ผ่านได้ครับ โดยจะเดินตามทางนี้เลย
+- เราสามารถเดินได้ทั้งหมด 2 รูปแบบ ตามภาพด้านล่าง
 
-<img src="https://github.com/opalInwza007x/TEST/assets/114739286/de654431-55d7-4c90-bc1f-60b67fe0fe49" width="385px" align="center">
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/f80286b5-2fd7-4964-a83a-48499a5dc07c" width="385px" align="center">
 
-- โดยผลรวมที่มากที่สุดคือ 5 + 7 + 4 + 9 = 25 นั่นเอง
-
-### Test Case#2
-
-กำหนดตารางขนาด 3 × 3 เริ่มจากซ้ายบน `(0, 0)` ไปยังขวาล่าง `(n - 1, m - 1)`
-
-<img src="https://github.com/opalInwza007x/TEST/assets/114739286/237b22c2-cac3-47e9-a72f-67710b1f6ec6" width="385px" align="center">
-
-- ในกรณีนี้ถ้าเรา Greedy โดยการ BFS เลือกตามทางมากสุดไปตลอด จะเดินตามทางนี้ครับ
-
-<img src="https://github.com/opalInwza007x/TEST/assets/114739286/c8368d66-99c4-4194-8cb6-a45d1d2a8627" width="385px" align="center">
-
-- ซึ่งผลรวมที่เราได้คือ 2 + 4 + 1 + 3 + 7 = 17 ครับ แต่ว่าในอีกเส้นทางนึง
-
-<img src="https://github.com/opalInwza007x/TEST/assets/114739286/88a1a9f5-4bf0-4e3a-9025-2e17760c53fb" width="385px" align="center">
-
-- ผลรวมเป็น 2 + -20 + 69 + -20 + 7 = 38 ซึ่งมากกว่าอย่างเห็นได้ชัด
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/5768e97f-7ba7-4565-a245-91a61b1dfbbc" width="385px" align="center">
 
 __ขั้นที่ 1 อ่านโจทย์ให้เรียบร้อย เช็คว่าควรเก็บ state ไหนบ้าง__
 
