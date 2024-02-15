@@ -1223,6 +1223,7 @@ int main() {
       - 2.3 Grid Paths
 
 # Dynamic programming 101
+
 ปล. นี่เป็นภาษา opal_Inwza007x ถ้าไม่เข้าใจ ก็ไปถาม [opal_Inwza007x](https://www.facebook.com/profile.php?id=100002974790342) 
 
 __ปล2. ผมชอบเขียนเป็น Top-Down นะครับ เน้น Recursive 555__
