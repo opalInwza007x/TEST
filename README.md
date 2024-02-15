@@ -1601,6 +1601,12 @@ ll solve(ll x, ll y) {
 
 (a xor b xor c xor d...) is true when there is odd amount off 1
 
+good tasks
+
+bitwise
+
+https://codeforces.com/contest/1669/problem/H
+
 fake DP xD
 
 https://atcoder.jp/contests/abc340/tasks/abc340_d
