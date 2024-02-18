@@ -1678,6 +1678,8 @@ Just wiped out Tomato Town…)
 
 (Day#24 เว็บผมในวันนี้ ต้องมี process มากกว่าเมื่อวาน)
 
+(Day#24 เมื่อไหร่ผมจะแรงค์แดงใน codeforces :/)
+
 .
 
 .
