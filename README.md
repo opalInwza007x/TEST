@@ -1675,7 +1675,7 @@ ll solve(ll l) {
 
 มีทั้งหมด 4 บริษัท โดยมีค่า pain ดังตาราง
 
-<img src="https://github.com/opalInwza007x/TEST/assets/114739286/7a52a270-a1ea-4d68-b1eb-28e3effc0dcd" width="385px" align="center">
+<img src="https://github.com/opalInwza007x/TEST/assets/114739286/7a52a270-a1ea-4d68-b1eb-28e3effc0dcd" width="750px" align="center">
 
 หนึ่งในการเลือกซื้อเครื่องมือที่ถูกที่สุด และสามารถใช้งานได้ครบทุกแบบคือ ชิ้นที่ 2 + ชิ้นที่ 3 รวม 35 บาท
 
