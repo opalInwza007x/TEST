@@ -1789,7 +1789,7 @@ ll solve(ll state) {
 ```
 
 โดยคำตอบได้จากการเรียก solve(0);
-
+ 
 <details>
  <summary>กดเพื่อดูของดี >:3</summary>
      <img src="https://github.com/opalInwza007x/TEST/assets/114739286/8024923d-436d-457b-9039-050c20a66932" width="385px" align="center">
