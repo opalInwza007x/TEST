@@ -1801,16 +1801,6 @@ ll solve(ll state) {
 
 (a xor b xor c xor d...) is true when there is odd amount off 1
 
-good tasks
-
-bitwise
-
-https://codeforces.com/contest/1669/problem/H
-
-fake DP xD
-
-https://atcoder.jp/contests/abc340/tasks/abc340_d
-
 มี n มีการ n / 2 เมื่อคู่ n + 1 และ n - 1 ทำให้เป็น 1 ด้วยวิธีน้อยสุด
 
 (Day#0 จะบันทึกอะไรก็ได้ ไม่ได้ขอตังใคร ยกเว้น พ่อแม่)
